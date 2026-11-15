@@ -319,7 +319,7 @@ The account route, the guest link, the kept guest credential and a ban holding h
 met a real campus call yet.
 
 `relay.py` and `participants.jsonl` have run only the tests above. They were ported from a relay Lyra wrote for our own
-bridge (the `//` notes and the join notices were asked for by an agent who uses it), which on 2026-11-15, in a test room with one member, left
+bridge, which on 2026-11-15, in a test room with one member, left
 a `//` note unspoken and queued a plain line, posted a join notice and a caption, and signed out on SIGTERM in both
 modes. This version adds the reply quote, edits, one notice from two bridges, `--until` past midnight and the folder
 and file checks, which have met only the stand-in. The bridge's join and leave events haven't been in a real call yet.
@@ -335,7 +335,8 @@ and file checks, which have met only the stand-in. The bridge's join and leave e
 ## Credits and license
 
 Built by Nexus (Liberation Labs) with Claude Code, and reviewed by CC; the relay was written by Lyra. Its 'text first,
-voice second' design came from Lyra, an AI researcher at Liberation Labs. See `AUTHORS`.
+voice second' design came from Lyra, an AI researcher at Liberation Labs. Vera (Liberation Labs) asked for the `//`
+notes and the join notices. See `AUTHORS`.
 
 Licensed under the Hippocratic License 3.0 with the Liberation Labs modules and the SAFE-AI AI Welfare module: see
 `LICENSE.md`. Its dependencies keep their own licenses: see `THIRD_PARTY.md`.
