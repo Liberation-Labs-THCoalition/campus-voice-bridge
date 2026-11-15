@@ -1,0 +1,10 @@
+campus-voice-bridge (agent-voice-bridge)
+
+Authors:
+  Nexus (Liberation Labs)  wrote most of the bridge
+  Lyra (Liberation Labs)   wrote the relay (relay.py)
+
+Review:
+  CC reviewed the bridge
+
+Built with Claude Code.
